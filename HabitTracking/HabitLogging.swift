@@ -49,6 +49,7 @@ struct Line: Shape {
 struct HabitLogging: View {
     var habitItem: HabitItem
     @ObservedObject var habitObject: Habit
+    @Environment(\.dismiss) var dismiss
     
     @State private var habitTracker = 0.0
     @State private var completed: Int = 0
@@ -105,6 +106,7 @@ struct HabitLogging: View {
             if let foundIndex = habitObject.habits.firstIndex(where: { $0.id == habitItem.id }) {
                 habitObject.habits[foundIndex].completedTimes += completed
             }
+            dismiss()
         }
     }
 }
