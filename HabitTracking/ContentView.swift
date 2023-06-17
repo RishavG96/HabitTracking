@@ -16,8 +16,17 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(habitObject.habits) { habit in
-                    VStack {
-                        Text(habit.name)
+                    NavigationLink {
+                        HabitLogging(habitItem: habit, habitObject: habitObject)
+                    } label: {
+                        HStack {
+                            VStack(alignment: .leading) {
+                                Text(habit.name)
+                                
+                                Text("Every day: \(habit.frequency)")
+                            }
+                            Text("      Completed: \(habit.completedTimes)")
+                        }
                     }
                 }
                 .onDelete { indexSet in

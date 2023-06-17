@@ -14,6 +14,7 @@
 		BDFE7E242A3D824D003547B7 /* HabitItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE7E232A3D824D003547B7 /* HabitItem.swift */; };
 		BDFE7E262A3D836B003547B7 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE7E252A3D836B003547B7 /* AddHabit.swift */; };
 		BDFE7E282A3D8669003547B7 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE7E272A3D8669003547B7 /* Habit.swift */; };
+		BDFE7E2A2A3D90DD003547B7 /* HabitLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFE7E292A3D90DD003547B7 /* HabitLogging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		BDFE7E232A3D824D003547B7 /* HabitItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitItem.swift; sourceTree = "<group>"; };
 		BDFE7E252A3D836B003547B7 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
 		BDFE7E272A3D8669003547B7 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		BDFE7E292A3D90DD003547B7 /* HabitLogging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitLogging.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BDFE7E232A3D824D003547B7 /* HabitItem.swift */,
 				BDFE7E272A3D8669003547B7 /* Habit.swift */,
 				BDFE7E252A3D836B003547B7 /* AddHabit.swift */,
+				BDFE7E292A3D90DD003547B7 /* HabitLogging.swift */,
 				BDFE7E192A3D808E003547B7 /* Assets.xcassets */,
 				BDFE7E1B2A3D808E003547B7 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				BDFE7E242A3D824D003547B7 /* HabitItem.swift in Sources */,
 				BDFE7E282A3D8669003547B7 /* Habit.swift in Sources */,
+				BDFE7E2A2A3D90DD003547B7 /* HabitLogging.swift in Sources */,
 				BDFE7E182A3D808D003547B7 /* ContentView.swift in Sources */,
 				BDFE7E262A3D836B003547B7 /* AddHabit.swift in Sources */,
 				BDFE7E162A3D808D003547B7 /* HabitTrackingApp.swift in Sources */,
